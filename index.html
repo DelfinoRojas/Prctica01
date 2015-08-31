@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Ahorcado</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Ahorcado</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center" >
+    <div data-role="controlgroup" style="width:65%">
+     <a href="#jugar" class="ui-btn ui-btn-corner-all ui-icon-check ui-btn-icon-right ">Jugar</a>
+     <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-gear ui-btn-icon-right ">Opciones</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <!-- Principal -->
+
+ <!-- Opciones -->
+ <div data-role="page" id="opciones" >   
+  <div data-role="header">
+  <h1>Opciones</h1>
+  <a href="#principal" class="ui-btn-left"  data-icon="home">Inicio</a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div align="center" >
+  <div data-role="controlgroup" style="width:65%">
+     <a href="#" class="ui-btn ui-btn-corner-all ui-icon-audio  ui-btn-icon-right" id="btn_sonido" >Sonido</a>
+     <a href="#" class="ui-btn ui-btn-corner-all  ui-icon-power ui-btn-icon-right" id="btn_vibrar">Vibrar</a>
+  </div>
+</div>
+</div>
+  </div>
+ 
+ 
+ 
+  <!-- Juego -->
+ <div data-role="page" id="Juego" >   
+  <div data-role="header">
+    <h1>Ahorcado</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+  </div>
+
+  
+ </div>  
+ <!-- Juego -->
+ </body>
+</html> 
